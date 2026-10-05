@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySpace 🌸</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe4f2, #e8dcff, #fff3c4);
+            color: #4a3157;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px 25px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 25px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 25px;
+            border-radius: 25px;
+            box-shadow: 0 8px 20px rgba(120, 80, 130, 0.15);
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        button {
+            border: none;
+            padding: 12px 20px;
+            border-radius: 20px;
+            background: #ff9dcc;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            padding: 25px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌸 StudySpace 🌈</h1>
+        <p>Ton espace pour apprendre, t'organiser et réussir ! ✨</p>
+    </header>
+
+    <main class="container">
+
+        <div class="card">
+            <h2>📊</h2>
+            <h3>Ma moyenne</h3>
+            <p>Calcule facilement ta moyenne.</p>
+            <button>Commencer</button>
+        </div>
+
+        <div class="card">
+            <h2>📚</h2>
+            <h3>Révisions</h3>
+            <p>Organise tes révisions.</p>
+            <button>Réviser</button>
+        </div>
+
+        <div class="card">
+            <h2>⏰</h2>
+            <h3>Emploi du temps</h3>
+            <p>Garde ton planning à portée de main.</p>
+            <button>Voir</button>
+        </div>
+
+        <div class="card">
+            <h2>✅</h2>
+            <h3>Mes tâches</h3>
+            <p>Note ce que tu dois faire.</p>
+            <button>Ajouter</button>
+        </div>
+
+        <div class="card">
+            <h2>🧠</h2>
+            <h3>Quiz</h3>
+            <p>Teste tes connaissances en t'amusant.</p>
+            <button>Jouer</button>
+        </div>
+
+        <div class="card">
+            <h2>📅</h2>
+            <h3>Calendrier</h3>
+            <p>Ne rate plus tes devoirs et contrôles.</p>
+            <button>Ouvrir</button>
+        </div>
+
+    </main>
+
+    <footer>
+        🌷 StudySpace — Apprendre peut être amusant !
+    </footer>
+
+</body>
+</html>
